@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+
+    <!-- Category name for  top attractions, restaurants, public places [CHAR LIMIT=20] -->
+    <string name="category_attractions">Top Attractions</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_retaurants">Restauants</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_public">Public Places</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_events">events in Pakistan</string>
+</resources>

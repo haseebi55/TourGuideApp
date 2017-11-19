@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/category_attractions"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingStart="16dp">
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="@color/primary_dark_color"
+        android:textSize="20sp"
+        tools:text="Lahore" />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@color/primary_dark_color"
+        android:textSize="20sp"
+        tools:text="Saif-ul-Malook" />
+
+</LinearLayout>
